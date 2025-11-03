@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540">
+  <rect width="100%" height="100%" fill="#222" />
+  <g font-family="Arial, Helvetica, sans-serif" fill="#fff">
+    <text x="36" y="48" font-size="28" font-weight="700">Instance segmentation — example output</text>
+    <text x="36" y="80" font-size="14" fill="#ddd">(Placeholder screenshot showing detected vehicles with masks and boxes)</text>
+  </g>
+  <!-- Simulated image area -->
+  <rect x="28" y="100" width="904" height="336" rx="6" fill="#444" />
+  <!-- Simulated detections: colored masks and boxes -->
+  <g fill-opacity="0.18">
+    <rect x="60" y="140" width="220" height="120" fill="#ff0000" />
+    <rect x="320" y="170" width="260" height="140" fill="#00ff88" />
+    <rect x="640" y="200" width="200" height="110" fill="#00b0ff" />
+  </g>
+  <g stroke-width="4" fill="none" stroke-linejoin="round">
+    <rect x="60" y="140" width="220" height="120" stroke="#ff5555" />
+    <rect x="320" y="170" width="260" height="140" stroke="#33cc99" />
+    <rect x="640" y="200" width="200" height="110" stroke="#33aaff" />
+  </g>
+  <g font-size="14" fill="#fff">
+    <rect x="56" y="118" width="140" height="20" rx="4" fill="#ff5555" />
+    <text x="64" y="133">car 0.87</text>
+    <rect x="316" y="148" width="170" height="20" rx="4" fill="#33cc99" />
+    <text x="324" y="163">truck 0.91</text>
+    <rect x="636" y="180" width="130" height="20" rx="4" fill="#33aaff" />
+    <text x="644" y="195">bus 0.78</text>
+  </g>
+</svg>
